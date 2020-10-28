@@ -1,0 +1,19 @@
+{
+    "name": "linaslev/invertus-task",
+    "description": "Shopping cart app",
+    "authors": [
+        {
+            "name": "linaslev",
+            "email": "levanaslinas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
+    },
+    "scripts": {
+        "start": "php app.php"
+    }
+}
